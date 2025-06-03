@@ -30,5 +30,4 @@ It provides a variety of interactive data visualizations, including histograms, 
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name
+ https://github.com/Rcolon2803/CarsTripleTen.git
