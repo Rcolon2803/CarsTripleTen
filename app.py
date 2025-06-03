@@ -3,7 +3,12 @@ import pandas as pd
 import plotly.express as px
 
 # Load dataset
-df = pd.read_csv("vehicles_us.csv")
+try:
+    df = pd.read_csv("vehicles_us.csv")
+except Exception as e:
+    st.error(f"❌ Error loading CSV: {e}")
+    st.stop()
+
 
 
 # Optional filter: remove price = 0
@@ -58,3 +63,16 @@ st.plotly_chart(fig_sunburst)
 
 # Footer
 st.caption("Built with ❤️ using Streamlit, Plotly, and Pandas")
+if __name__ == '__main__':
+    import os
+    import streamlit.web.bootstrap
+
+    streamlit.web.bootstrap.run(
+        'app.py',
+        '',
+        [],
+        flag_options={
+            'server.address': '0.0.0.0',
+            'server.port': int(os.environ.get('PORT', 8501))
+        }
+    )
