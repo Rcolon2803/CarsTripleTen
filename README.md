@@ -25,9 +25,15 @@ It provides a variety of interactive data visualizations, including histograms, 
 - [Pandas](https://pandas.pydata.org/) – for data handling and analysis
 
 ---
-
 ## 🚀 How to Run the Project Locally
 
 1. **Clone the repository**:
    ```bash
+ https://github.com/Rcolon2803/CarsTripleTen.git
+## 🌐 Live App
+Click here to launch the app: [Used Vehicle Dashboard on Render](http://34.213.214.55:8501)
+
+## ✏️ Reflection
+
+Working on this project allowed me to strengthen my skills in data cleaning, exploratory data analysis, and building interactive dashboards with Streamlit. I learned how to identify missing values, decide on appropriate strategies for handling them, and present insights through clear, interactive charts. Deploying the app taught me how to structure a project for cloud deployment and debug cross-platform compatibility issues. I am looking forward to applying these skills in future projects to analyze larger datasets and build tools that can help others gain meaningful insights from data
  https://github.com/Rcolon2803/CarsTripleTen.git
